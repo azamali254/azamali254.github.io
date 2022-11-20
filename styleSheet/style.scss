@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    .unq-color{
+        color: crimson;
+        transition: all .35s ease;
+    }
+    .main-nav{
+        position: relative;
+        z-index: 111;
+        .navbar-brand{
+            font-size: 32px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all .30s ease;
+            &:hover{
+                .unq-color{
+                    color: white;
+                }
+            }
+        }
+        .nav-item{
+            .nav-link{
+                color: black;
+                font-size: 24px;
+                font-weight: 400; 
+                transition: all .30s ease;
+                &:hover{
+                    color: white !important;
+                }
+            }
+            .dropdown-menu{
+                .dropdown-item{
+                    color: black !important;
+                    font-size: 18px !important;
+                    background-color: #0D6EFD;
+                    transition: all .30s ease;
+                    &:hover{
+                        color: white !important;
+
+                    }
+                }
+            }
+        }
+        .btn{
+            font-size: 22px;
+        }
+    }
+    .footer{
+        height: 150px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .footer-row{
+            width: 40%;
+            height: 100%;
+            .footer-col{
+                display: flex !important;
+                justify-content: space-evenly;
+                a{
+                    text-decoration: none;
+                    display: inline;
+                    transition: all .30s ease;
+                    &:hover{
+                        color: white !important;
+                    }
+                }
+                .bi{
+                    transition: all .30s ease;
+                    cursor: pointer;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

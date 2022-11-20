@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body .unq-color {
+  color: crimson;
+  transition: all 0.35s ease;
+}
+body .main-nav {
+  position: relative;
+  z-index: 111;
+}
+body .main-nav .navbar-brand {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+body .main-nav .navbar-brand:hover .unq-color {
+  color: white;
+}
+body .main-nav .nav-item .nav-link {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+body .main-nav .nav-item .nav-link:hover {
+  color: white !important;
+}
+body .main-nav .nav-item .dropdown-menu .dropdown-item {
+  color: black !important;
+  font-size: 18px !important;
+  background-color: #0D6EFD;
+  transition: all 0.3s ease;
+}
+body .main-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  color: white !important;
+}
+body .main-nav .btn {
+  font-size: 22px;
+}
+body .footer {
+  height: 150px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .footer .footer-row {
+  width: 40%;
+  height: 100%;
+}
+body .footer .footer-row .footer-col {
+  display: flex !important;
+  justify-content: space-evenly;
+}
+body .footer .footer-row .footer-col a {
+  text-decoration: none;
+  display: inline;
+  transition: all 0.3s ease;
+}
+body .footer .footer-row .footer-col a:hover {
+  color: white !important;
+}
+body .footer .footer-row .footer-col .bi {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+body .footer .footer-row .footer-col .bi:hover {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
